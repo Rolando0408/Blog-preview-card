@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/your-solution-url-here)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Rolando0408/Blog-preview-card)
+- Live Site URL: [Add live site URL here](https://rolando0408.github.io/Blog-preview-card/)
 
 ## My process
 
