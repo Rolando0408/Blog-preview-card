@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Figtree', sans-serif; /* Aplicar Figtree como fuente principal */
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem; /* Espacio entre elementos */
+    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura */
+    margin: 0; /* Es buena práctica resetear el margen del body */
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 5vh;
+    box-shadow: 10px 5px 0px rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card__image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.y_text{
+    background-color: hsl(47, 88%, 63%);
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 1.5rem; /* Ajustado para ser más grande que el párrafo, ejemplo */
+    font-weight: 800; /* Usar el peso ExtraBold definido */
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+p{
+    color: hsl(0, 0%, 7%);
+    font-size: 1rem; /* 16px según la guía de estilos */
+    font-weight: 500; /* Usar el peso Medium definido */
+}
+
+.p_gray{
+    color: hsl(0, 0%, 42%);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500; /* Asegurar peso Medium */
+}
+
+.user_content{
+    display: flex;
+    align-items: center;
+}
+
+.user_image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.p_user{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800; /* Usar el peso ExtraBold definido */
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover{
+    text-decoration: underline; 
+}
+
+footer{
+    margin-top: 1rem; /* Espacio entre el contenido y el footer */
+    text-align: center; /* Centrar el texto del footer */
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 70%; /* Ajustar aún más el ancho de la tarjeta en pantallas muy pequeñas */
+    }
+    
+    h1 {
+        font-size: 1rem; /* Reducir aún más el tamaño del título */
+    }
+    
+    p {
+        font-size: 0.8rem; /* Reducir aún más el tamaño del párrafo */
+    }
+}
+
